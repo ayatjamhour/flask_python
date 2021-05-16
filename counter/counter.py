@@ -20,8 +20,8 @@ def count():
 
     return redirect("/")
 
-@app.route("/clear")
-def clear():
+@app.route("/destroy")
+def destroy():
     session.clear()
     return redirect("/") 
 
